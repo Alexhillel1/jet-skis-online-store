@@ -31,14 +31,6 @@ $(function () {
   slidesToScroll: 1,
   prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="/images/icons/arrow-left.svg" alt="arrow-left" /></button>',
   nextArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="/images/icons/arrow-right.svg" alt="arrow-right" /></button>',
-  responsive: [
-   {
-    breakpoint: 969,
-    settings: {
-     arrows: false,
-    },
-   },
-  ],
  });
 
  $('.product-slider').slick({
@@ -46,6 +38,36 @@ $(function () {
   slidesToScroll: 1,
   prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="./images/icons/arrow-left.svg" alt="arrow-left" /></button>',
   nextArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="./images/icons/arrow-right.svg" alt="arrow-right" /></button>',
+  responsive: [
+   {
+    breakpoint: 1301,
+    settings: {
+     arrows: false,
+     dots: true,
+    },
+   },
+   {
+    breakpoint: 1201,
+    settings: {
+     slidesToShow: 3,
+     dots: true,
+    },
+   },
+   {
+    breakpoint: 870,
+    settings: {
+     slidesToShow: 2,
+     dots: true,
+    },
+   },
+   {
+    breakpoint: 590,
+    settings: {
+     slidesToShow: 1,
+     dots: true,
+    },
+   },
+  ],
  });
 
  $('.filter-style').styler();
@@ -81,5 +103,10 @@ $(function () {
 
  $('.menu-btn').on('click', function () {
   $('.menu-mobile__list').toggleClass('menu-mobile__list--active');
+ });
+
+ $('.footer__topdrop').on('click', function () {
+  $(this).next().slideToggle();
+  $(this).toggleClass('footer__topdrop--active');
  });
 });

@@ -278,9 +278,13 @@ body {
  background-color: transparent;
 }
 
-.slick-active li button {
+.slick-dots .slick-active button {
  background-color: #fff;
 }
+
+/* .slick-active li button {
+ background-color: #fff;
+} */
 
 .sale-item {
  max-width: 256px;
@@ -1502,16 +1506,6 @@ button.catalog__filter-btn-line {
  border-bottom: 2px solid #3a45ae;
  opacity: 1;
 }
-.tab--active {
-}
-.tabs-container {
-}
-.card-content {
-}
-.tabs-content {
-}
-.tabs-content--active {
-}
 .card-top__line {
  margin-bottom: 10px;
 }
@@ -1598,8 +1592,6 @@ button.catalog__filter-btn-line {
  width: 220px;
  margin-right: 80px;
 }
-.card__list-address {
-}
 .card__list-worktime {
  width: 157px;
  margin-right: 96px;
@@ -1633,4 +1625,15 @@ button.catalog__filter-btn-line {
  background-color: #3a45ae;
  border: none;
  cursor: pointer;
+}
+.product-slider .slick-dots {
+ bottom: -30px;
+}
+
+.product-slider .slick-dots button {
+ background-color: #c4c4c4;
+}
+
+.product-slider .slick-dots .slick-active button {
+ background-color: #3a45ae;
 }
