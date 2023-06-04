@@ -1637,3 +1637,6 @@ button.catalog__filter-btn-line {
 .product-slider .slick-dots .slick-active button {
  background-color: #3a45ae;
 }
+.aside__btn {
+ display: none;
+}
