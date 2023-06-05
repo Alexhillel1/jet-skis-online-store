@@ -1,8 +1,12 @@
 $(function () {
  $('.banner-section__slider').slick({
   dots: true,
-  prevArrow: ' <button class="banner-section__slider-btn banner-section__slider-btnprev"><img src="./images/icons/arrow-left.svg" alt="arrow-left" /></button>',
-  nextArrow: ' <button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="./images/icons/arrow-right.svg" alt="arrow-right" /></button>',
+  arrows: false,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  infinite: true,
+  cssEase: 'linear',
  });
 
  $('.tab').on('click', function (e) {
@@ -31,6 +35,10 @@ $(function () {
  $('.product-slider-tovar').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  infinite: true,
+  cssEase: 'linear',
   prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="/images/icons/arrow-left.svg" alt="arrow-left" /></button>',
   nextArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="/images/icons/arrow-right.svg" alt="arrow-right" /></button>',
  });
@@ -38,8 +46,12 @@ $(function () {
  $('.product-slider').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
-  prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="./images/icons/arrow-left.svg" alt="arrow-left" /></button>',
-  nextArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="./images/icons/arrow-right.svg" alt="arrow-right" /></button>',
+  autoplay: true,
+  autoplaySpeed: 2500,
+  infinite: true,
+  cssEase: 'linear',
+  prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="../../images/icons/arrow-left.svg" alt="arrow-left" /></button>',
+  nextArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="../../images/icons/arrow-right.svg" alt="arrow-right" /></button>',
   responsive: [
    {
     breakpoint: 1301,
