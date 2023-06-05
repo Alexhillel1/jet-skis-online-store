@@ -1643,3 +1643,6 @@ button.catalog__filter-btn-line {
 .product-card__bay-btn--mobile {
  display: none;
 }
+.footer__topdrop {
+ pointer-events: none;
+}
