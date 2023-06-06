@@ -39,8 +39,7 @@ $(function () {
   autoplaySpeed: 2500,
   infinite: true,
   cssEase: 'linear',
-  prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="./images/icons/arrow-left.svg" alt="arrow-left" /></button>',
-  nextArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="./images/icons/arrow-right.svg" alt="arrow-right" /></button>',
+  arrows: false,
  });
 
  $('.product-slider').slick({
@@ -50,13 +49,12 @@ $(function () {
   autoplaySpeed: 2500,
   infinite: true,
   cssEase: 'linear',
-  prevArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="../images/icons/arrow-left.svg" alt="arrow-left" /></button>',
-  nextArrow: ' <button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="../images/icons/arrow-right.svg" alt="arrow-right" /></button>',
+  arrows: false,
+
   responsive: [
    {
     breakpoint: 1301,
     settings: {
-     arrows: false,
      dots: true,
     },
    },
