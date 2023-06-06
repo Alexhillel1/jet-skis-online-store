@@ -198,6 +198,13 @@
  }
 }
 
+@media (max-width: 870px) {
+ .product-item__wrapper {
+  width: 90%;
+  margin-left: 20px;
+ }
+}
+
 @media (max-width: 640px) {
  .header__address {
   display: none;
@@ -238,6 +245,13 @@
  }
  .product-card__buttons a + a {
   margin-left: 5px;
+ }
+}
+
+@media (max-width: 590px) {
+ .product-item__wrapper {
+  width: 100%;
+  margin-left: 0;
  }
 }
 

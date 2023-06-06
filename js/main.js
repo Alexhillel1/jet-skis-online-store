@@ -125,4 +125,6 @@ $(function () {
  $('.aside__btn').on('click', function () {
   $(this).next().slideToggle();
  });
+
+ AOS.init();
 });
