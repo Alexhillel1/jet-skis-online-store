@@ -1675,3 +1675,14 @@ button.catalog__filter-btn-line {
 .product-card__img {
  width: 500px;
 }
+
+.menu-mobile__linewrapper,
+.tabs-wrapper,
+.breadcrumbs__inner,
+.catalog__filter-itemsinner::-webkit-scrollbar {
+ display: none;
+}
+
+.menu-mobile__linewrapper {
+ scrollbar-width: none;
+}

@@ -73,6 +73,7 @@
   font-weight: 700;
   background-color: #f0f0f4;
   overflow-x: scroll;
+  scrollbar-width: none;
  }
  .menu-mobile__line {
   width: 450px;
@@ -111,6 +112,7 @@
  .breadcrumbs__inner,
  .catalog__filter-itemsinner {
   overflow-x: scroll;
+  scrollbar-width: none;
  }
  .tabs-wrapper.tabs-wrapper--no--scroll {
   overflow: hidden;
@@ -305,7 +307,7 @@
  .footer__topdrop::before {
   content: '';
   position: absolute;
-  background-image: url('/images/icons/arrow-bottom.svg');
+  background-image: url('./images/icons/arrow-bottom.svg');
   right: 0;
   top: 21px;
   width: 12px;
