@@ -1657,3 +1657,7 @@ button.catalog__filter-btn-line {
  justify-content: center;
  text-align: center;
 }
+.products .product-item__img {
+ max-width: 200px;
+ max-height: 200px;
+}
