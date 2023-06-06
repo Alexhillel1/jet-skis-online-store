@@ -307,7 +307,7 @@
  .footer__topdrop::before {
   content: '';
   position: absolute;
-  background-image: url('./images/icons/arrow-bottom.svg');
+  background-image: url('/images/icons/arrow-bottom.svg');
   right: 0;
   top: 21px;
   width: 12px;
@@ -332,5 +332,12 @@
  }
  .pagination__list-item {
   margin: 0;
+ }
+}
+
+@media (max-width: 417px) {
+ .card__input-search {
+  margin-left: 0;
+  margin-top: 10px;
  }
 }
