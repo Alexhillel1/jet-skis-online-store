@@ -791,7 +791,8 @@ body {
  margin: 0 40px;
 }
 .breadcrumbs {
- margin-bottom: 40px;
+ margin-top: 20px;
+ margin-bottom: 30px;
 }
 .breadcrumbs__list-item {
  display: inline-block;
