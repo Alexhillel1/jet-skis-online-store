@@ -1676,13 +1676,6 @@ button.catalog__filter-btn-line {
  width: 500px;
 }
 
-.menu-mobile__linewrapper,
-.tabs-wrapper,
-.breadcrumbs__inner,
-.catalog__filter-itemsinner::-webkit-scrollbar {
- display: none;
-}
-
 .menu-mobile__linewrapper {
  scrollbar-width: none;
 }
