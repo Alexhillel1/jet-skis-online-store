@@ -124,6 +124,8 @@ body {
  position: absolute;
  background-color: #fff;
  z-index: 100;
+ height: 912px; /* Задайте фиксированную высоту, которая подходит для вашего меню */
+ overflow-y: auto; /* Добавляем прокрутку по вертикали */
 }
 .menu-mobile__list--active {
  transform: translateX(0%);
