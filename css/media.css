@@ -248,6 +248,12 @@
  .product-card__buttons a + a {
   margin-left: 5px;
  }
+
+ .modal {
+  width: 90%;
+  min-height: auto;
+  padding: 20px;
+ }
 }
 
 @media (max-width: 590px) {
@@ -320,6 +326,44 @@
  .footer__topdrop--active::before {
   transform: rotate(180deg);
  }
+
+ .modal-form__input,
+ .modal-form__textarea {
+  font-size: 14px;
+  padding: 8px;
+ }
+
+ .modal__title {
+  font-size: 18px;
+  margin-bottom: 12px;
+ }
+
+ .login-form {
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+ .modal-form__policy-btn {
+  font-size: 14px;
+  padding: 5px 20px;
+  margin-top: 10px;
+ }
+
+ .login-soc__text {
+  font-size: 16px;
+ }
+
+ .login-text__reg span,
+ .login-text__reg-link {
+  font-size: 12px;
+  line-height: 14px;
+ }
+ .modal-form__svg--user {
+  display: none;
+ }
+ .modal-form__svg--tel {
+  display: none;
+ }
 }
 
 @media (max-width: 440px) {
@@ -333,11 +377,72 @@
  .pagination__list-item {
   margin: 0;
  }
+ .modal {
+  padding: 15px;
+ }
+
+ .modal-form__input,
+ .modal-form__textarea {
+  font-size: 12px;
+  padding: 6px;
+ }
+
+ .modal__title {
+  font-size: 16px;
+  margin-bottom: 10px;
+ }
+
+ .modal-form__policy-btn {
+  font-size: 12px;
+  padding: 4px 16px;
+  margin-top: 8px;
+ }
+
+ .login-soc__text {
+  font-size: 14px;
+ }
+
+ .login-text__reg span,
+ .login-text__reg-link {
+  font-size: 10px;
+  line-height: 12px;
+ }
 }
 
 @media (max-width: 417px) {
  .card__input-search {
   margin-left: 0;
   margin-top: 10px;
+ }
+
+ .modal {
+  padding: 10px;
+ }
+
+ .modal-form__input,
+ .modal-form__textarea {
+  font-size: 10px;
+  padding: 4px;
+ }
+
+ .modal__title {
+  font-size: 14px;
+  margin-bottom: 8px;
+ }
+
+ .modal-form__policy-btn {
+  font-size: 10px;
+  padding: 3px 12px;
+  margin-top: 6px;
+ }
+
+ .login-soc__text {
+  font-size: 12px;
+ }
+
+ .login-text__reg span,
+ .login-text__reg-link {
+  font-size: 8px;
+  line-height: 10px;
  }
 }
