@@ -117,6 +117,17 @@ $(function () {
   $('.menu-mobile__list').toggleClass('menu-mobile__list--active');
  });
 
+ $(document).on('click', function (event) {
+  var menu = $('.menu-mobile__list');
+  var menuBtn = $('.menu-btn');
+
+  if (!menu.is(event.target) && !menuBtn.is(event.target) && menu.has(event.target).length === 0) {
+   if (menu.hasClass('menu-mobile__list--active')) {
+    menu.removeClass('menu-mobile__list--active');
+   }
+  }
+ });
+
  $('.footer__topdrop').on('click', function () {
   $(this).next().slideToggle();
   $(this).toggleClass('footer__topdrop--active');

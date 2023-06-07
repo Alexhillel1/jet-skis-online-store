@@ -123,7 +123,7 @@ body {
  transition: all 0.2s ease-in-out;
  position: absolute;
  background-color: #fff;
- z-index: 10;
+ z-index: 100;
 }
 .menu-mobile__list--active {
  transform: translateX(0%);
