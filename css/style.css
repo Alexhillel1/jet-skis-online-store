@@ -1866,11 +1866,13 @@ button.catalog__filter-btn-line {
 .login-form {
  display: flex;
  align-items: center;
+ flex-wrap: wrap;
 }
 .login-form__inner {
  display: flex;
  align-items: center;
  margin-left: auto;
+ flex-wrap: wrap;
 }
 
 .login__form-link {

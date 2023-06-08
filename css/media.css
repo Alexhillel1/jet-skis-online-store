@@ -431,4 +431,11 @@
   width: 33px;
   height: 33px;
  }
+ .box-close-svg {
+  width: 20px;
+  height: 20px;
+ }
+ .modal-close-svg {
+  width: 15px;
+ }
 }
