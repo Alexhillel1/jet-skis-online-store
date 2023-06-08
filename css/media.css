@@ -338,15 +338,10 @@
   margin-bottom: 12px;
  }
 
- .login-form {
-  flex-direction: column;
-  align-items: flex-start;
- }
-
  .modal-form__policy-btn {
   font-size: 14px;
-  padding: 5px 20px;
   margin-top: 10px;
+  margin-bottom: 10px;
  }
 
  .login-soc__text {
@@ -381,12 +376,6 @@
   padding: 15px;
  }
 
- .modal-form__input,
- .modal-form__textarea {
-  font-size: 12px;
-  padding: 6px;
- }
-
  .modal__title {
   font-size: 16px;
   margin-bottom: 10px;
@@ -394,17 +383,12 @@
 
  .modal-form__policy-btn {
   font-size: 12px;
-  padding: 4px 16px;
   margin-top: 8px;
- }
-
- .login-soc__text {
-  font-size: 14px;
  }
 
  .login-text__reg span,
  .login-text__reg-link {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 12px;
  }
 }
@@ -419,12 +403,6 @@
   padding: 10px;
  }
 
- .modal-form__input,
- .modal-form__textarea {
-  font-size: 10px;
-  padding: 4px;
- }
-
  .modal__title {
   font-size: 14px;
   margin-bottom: 8px;
@@ -432,17 +410,25 @@
 
  .modal-form__policy-btn {
   font-size: 10px;
-  padding: 3px 12px;
   margin-top: 6px;
  }
 
  .login-soc__text {
-  font-size: 12px;
+  font-size: 13px;
  }
 
  .login-text__reg span,
  .login-text__reg-link {
-  font-size: 8px;
+  font-size: 11px;
   line-height: 10px;
+ }
+
+ .login__form-lable {
+  font-size: 11px;
+  padding-right: 10px;
+ }
+ .login-soc__img {
+  width: 33px;
+  height: 33px;
  }
 }
