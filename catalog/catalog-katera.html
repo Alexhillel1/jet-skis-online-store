@@ -775,7 +775,7 @@
      <form class="modal-form">
       <div class="modal-form__field">
        <div class="input-box">
-        <input class="modal-form__input input-name" type="text" name="login" id="user_name" required placeholder="Логин или email" />
+        <input class="modal-form__input input-name" type="text" name="login" id="user_login" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Логин или email" />
         <svg class="modal-form__svg--user svg-form" width="18" height="18">
          <use href="../images/icons/symbol-defs.svg#icon-user"></use>
         </svg>
@@ -784,7 +784,7 @@
 
       <div class="modal-form__field">
        <div class="input-box">
-        <input class="modal-form__input input-tel" type="password" name="telephon" id="user_telephon" placeholder="Пароль" />
+        <input class="modal-form__input input-tel" type="password" name="password" id="user_password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Пароль" />
         <svg class="modal-form__svg--tel svg-form" width="18" height="18">
          <use href="../images/icons/symbol-defs.svg#icon-user"></use>
         </svg>
@@ -799,7 +799,7 @@
          Не запоминать меня
         </label>
 
-        <button class="modal-form__policy-btn" type="submit">Войти</button>
+        <button class="modal-form__policy-btn" type="submit" id="login-button">Войти</button>
        </div>
       </div>
 
