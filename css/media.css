@@ -72,12 +72,13 @@
   font-family: 'SFProDisplay-Bold', sans-serif;
   font-weight: 700;
   background-color: #f0f0f4;
-  overflow-x: scroll;
-  scrollbar-width: none;
  }
  .menu-mobile__line {
   width: 450px;
   padding: 14px 0 14px 15px;
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
  }
  .banner-section__inner {
   margin-top: 25px;
