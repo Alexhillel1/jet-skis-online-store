@@ -74,7 +74,7 @@
   background-color: #f0f0f4;
  }
  .menu-mobile__line {
-  max-width: 450px;
+  max-width: 100%;
   padding: 14px 0 14px 15px;
   display: flex;
   overflow-x: scroll;
@@ -242,6 +242,7 @@
  .aside-filter {
   display: none;
  }
+
  .product-card__title {
   font-size: 20px;
   line-height: 24px;
